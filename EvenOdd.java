@@ -8,7 +8,7 @@ class evenodd
     }
     int check()
     {
-        if(a%2==0)
+        if(a%2==0 || a!=1)
         flag=1;
         else
         flag=0;
@@ -20,7 +20,7 @@ class evenoddcheck
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter a Number");
+        System.out.println("Enter a Number to be checked");
         int n,flags;
         n=sc.nextInt();
         evenodd obj1=new evenodd();
